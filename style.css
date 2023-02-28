@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Lato:wght@300;400;700;900&family=Montserrat:wght@500;700&family=Ms+Madi&family=Noto+Sans+JP:wght@100&family=Outfit:wght@300;400;600;700&family=Poppins:wght@100;300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.corpo {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+
+
+}
+
+.container {
+    width: 350px;
+    height: 590px;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+.sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.image {
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: -25px;
+    cursor: pointer;  
+}
+
+.sec div{
+    position: absolute;
+    border-radius: 5px;
+    background-color: hsl(178, 100%, 50%,60%);
+    top: 199px;
+    width:300px ;
+    height: 300px;
+    opacity: 0;
+}
+
+.sec div:hover{
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+.sec div img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.sec2 {
+    margin-left: 25px;
+    line-height: 3;
+
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+h2:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    line-height: 1.5;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1.5rem;
+    padding-top: 16px;
+
+}
+
+.eth {
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+
+.eth img{
+    margin-right: 5px;
+}
+
+.eth2 {
+    
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+.eth2 img{
+    margin-right: 5px;
+}
+
+h3 {
+    color: hsl(215, 51%, 70%);
+}
+
+.fundo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 300px;
+    border-top: 2px solid hsl(215, 32%, 27%);
+    color: white;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.fundo:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
